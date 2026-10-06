@@ -1,0 +1,76 @@
+# Demonstration scenarios
+# > SYNTHETIC CASE. Generated for internal validation of the HeXie-AI Venture Challenge resources. Not student work.
+# Separate from the worked cases in 05_evaluation/exemplar_cases/. No empirical claims or completed tests.
+scenarios:
+  - id: demo_01
+    title: 'SYNTHETIC: AI-enabled service enquiry assistant'
+    synthetic_notice: '> SYNTHETIC CASE. Generated for internal validation of the HeXie-AI Venture Challenge resources. Not student work.'
+    brief: A fictional venture proposes an AI-enabled enquiry assistant for small service businesses. It would draft responses for human approval and provide a route to a human for disputed answers. Subscription revenue and demand remain untested.
+    assumptions:
+      - 'Team assumption: businesses would pay for assistance with routine enquiries.'
+      - 'Team assumption: human review could catch consequential errors before release.'
+      - 'Team assumption: a limited trial could be supported with existing team capacity.'
+    evidence_bundle:
+      - {id: demand, status: placeholder, description: 'Placeholder: task observations and demand-test record; no interviews have occurred.'}
+      - {id: controls, status: placeholder, description: 'Placeholder: data-flow map and error-handling rehearsal; no test results supplied.'}
+    designed_tensions:
+      - id: launch
+        question: Should the venture expand enquiries covered before verifying the review process?
+        positions:
+          Investor: Test demand promptly while containing execution cost.
+          Regulator: Review error escalation and data handling before broadening scope.
+          Supplier / Operations Partner: Bound supported enquiry types to the available review capacity.
+      - id: service
+        question: Who pays for accessible human support when an automated answer is disputed?
+        positions:
+          Customer: Preserve a usable human route without unexpected charges.
+          Community / Ethics Stakeholder: Consider exclusion when an automated route is unsuitable.
+          Investor: Make the cost of human support visible in the revenue model.
+  - id: demo_02
+    title: 'SYNTHETIC: Science commercialisation for crop monitoring'
+    synthetic_notice: '> SYNTHETIC CASE. Generated for internal validation of the HeXie-AI Venture Challenge resources. Not student work.'
+    brief: A fictional venture proposes a sensor-supported crop-monitoring service. A technical concept is described, but field performance, maintenance demands and customer adoption are untested. The proposal makes no crop-yield or environmental-savings claim.
+    assumptions:
+      - 'Team assumption: growers would find the proposed measurements useful.'
+      - 'Team assumption: the sensing approach could work under variable field conditions.'
+      - 'Team assumption: a service model could cover maintenance costs.'
+    evidence_bundle:
+      - {id: technical, status: placeholder, description: 'Placeholder: bench-test protocol and field-test plan; no measured performance supplied.'}
+      - {id: adoption, status: placeholder, description: 'Placeholder: grower task description and maintenance model; no customer evidence supplied.'}
+    designed_tensions:
+      - id: transfer
+        question: What evidence is needed before moving from a bench concept to a field trial?
+        positions:
+          Investor: Stage spending against evidence that could change the viability judgement.
+          Supplier / Operations Partner: Test calibration, maintenance and failure recovery in the intended conditions.
+          Regulator: Seek qualified review of safety and deployment questions before field use.
+      - id: access
+        question: How should service reliability and access affect pricing and trial design?
+        positions:
+          Customer: Establish whether the measurement changes a useful operational decision.
+          Community / Ethics Stakeholder: Examine who could be excluded by maintenance and access costs.
+          Investor: State who funds support while demand remains uncertain.
+  - id: demo_03
+    title: 'SYNTHETIC: Mission-led reusable packaging service'
+    synthetic_notice: '> SYNTHETIC CASE. Generated for internal validation of the HeXie-AI Venture Challenge resources. Not student work.'
+    brief: A fictional venture proposes a reusable packaging collection and cleaning service. Its mission is to reduce waste while remaining commercially viable. Returns, cleaning requirements, transport burdens and environmental benefits have not been measured.
+    assumptions:
+      - 'Team assumption: customers would return packaging through a convenient collection route.'
+      - 'Team assumption: cleaning and transport costs could be covered by service revenue.'
+      - 'Team assumption: reuse could reduce environmental burdens under suitable operating conditions.'
+    evidence_bundle:
+      - {id: lifecycle, status: placeholder, description: 'Placeholder: lifecycle boundary and measurement plan; no savings estimate supplied.'}
+      - {id: delivery, status: placeholder, description: 'Placeholder: collection and cleaning rehearsal; no performance or safety results supplied.'}
+    designed_tensions:
+      - id: proof
+        question: Should expansion depend on evidence of both commercial viability and environmental benefit?
+        positions:
+          Investor: Compare expansion commitments with downside and financing assumptions.
+          Community / Ethics Stakeholder: Examine cleaning and transport burdens within an explicit lifecycle boundary.
+          Regulator: Ask what safety review and handling controls may be needed.
+      - id: returns
+        question: How should return convenience be balanced against collection and cleaning capacity?
+        positions:
+          Customer: Make returns convenient and responsibilities clear.
+          Supplier / Operations Partner: Match collection promises to capacity and quality checks.
+          Community / Ethics Stakeholder: Examine whether return conditions exclude some users.

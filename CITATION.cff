@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "HeXie-AI Venture Challenge: Assessment resources for entrepreneurship education"
+version: 1.0.0
+date-released: 2026-10-06
+authors:
+  - family-names: Tang
+    given-names: Binqi
+    affiliation: "Xi'an Jiaotong-Liverpool University"
+license: CC-BY-NC-4.0
+repository-code: "https://github.com/binqi20/hexie-ai-venture-challenge"
+abstract: >-
+  Assessment resources for entrepreneurship education in which students may use
+  generative AI. Teams develop a venture with AI, face a moderated panel of
+  simulated stakeholders with conflicting demands, record which feedback they
+  adopt, reject or defer, and defend their decisions orally. Includes a
+  capability rubric, AI-use declarations, decision memo and response-log
+  templates, a stakeholder simulation kit with a Python prototype, an
+  ESG-derived Venture Value Lens, feedback instruments and an adoption kit.
+keywords:
+  - entrepreneurship education
+  - assessment
+  - generative AI
+  - stakeholder simulation
+  - HeXie Management Theory
+  - ESG
